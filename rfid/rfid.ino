@@ -214,11 +214,18 @@ void loop()
   rfid.Poll();
   if(rfid.Found()){
     if(
+    //诸位大哥和元老们
     studentid=="2016010564"    //王广晗
     or studentid=="2020210998" //王广晗
-	  or studentid=="2018011562" //范雨晗
-	  //老师
-	  or studentid=="1988990346" //李老师
+    or studentid=="2018011562" //范雨晗
+    or studentid=="2019310437" //刘心志
+    or studentid=="2019310438" //丁荣
+    or studentid=="2017310381" //欧阳晨光
+    or studentid=="2016010766" //林逸晗
+    or studentid=="2020310429" //林逸晗
+    or studentid=="2016010819" //王逸群
+    //老师
+    or studentid=="1988990346" //李老师
     or studentid=="2017640415" //胡老师
     or studentid=="2013990111" //张浩老师
     or studentid=="2014990017" //罗川老师
@@ -226,103 +233,77 @@ void loop()
     or studentid=="2020620975" //徐东老师
     or studentid=="2006980114" //王芃老师
     or studentid=="1980990115" //侯汝舜老师
-	  //主席团
-    or studentid=="2019310437" //刘心志
-    or studentid=="2019310438" //丁荣
-	  or studentid=="2017310381" //欧阳晨光
-    or studentid=="2016010570" //胡苏兴
-    or studentid=="2016010766" //林逸晗
-    or studentid=="2020310429" //林逸晗
-	  or studentid=="2016010819" //王逸群
-	  or studentid=="2016010532" //刘佩瑶
-	  or studentid=="2016010341" //熊诚凇
+    //主席团
     or studentid=="2018010635" //李豪汉
-    or studentid=="2018010634" //姜凯元
-    //SRT
-	  or studentid=="2018010595" //郑晗乐
-    or studentid=="2018010622" //王楚宁
-    or studentid=="2018010651" //刘雨玚
-    or studentid=="2018010623" //李金峰
-    or studentid=="2018010588" //张政
     or studentid=="2018010625" //张翀
-    or studentid=="2018010594" //沈王天
-    or studentid=="2018010629" //熊翊哲
-    or studentid=="2018010621" //张竟怡
-    or studentid=="2018010637" //潘益萱
     or studentid=="2018010647" //郑重
-    //其他
-    or studentid=="2018310434" //李福祥
-    or studentid=="2016310272" //徐光耀
-    or studentid=="2016010811" //陈胜杰
-    or studentid=="2017010820" //滕峻池
-	  or studentid=="2017010626" //向天祎
-	  or studentid=="2017010875" //孔瑞楷
-    or studentid=="2016010773" //王卓凡
-    or studentid=="2016010658" //胡克勤
-	  or studentid=="2017010625" //戚鑫城
-	  or studentid=="2017011713" //孙家阳
-	  or studentid=="2017010630" //薛鑫源
-	  or studentid=="2017010655" //于智超
-	  or studentid=="2017010681" //刘晓朋
-	  or studentid=="2017010669" //方旭晨
-	  or studentid=="2017010687" //刘悦阳
-	  or studentid=="2017010692" //朱润泽
-	  or studentid=="2017010683" //高云晖
-	  or studentid=="2017010519" //蒲子航
-	  or studentid=="2016010585" //石佳林
-	  or studentid=="2017010644" //阎华毅
-	  or studentid=="2017010642" //贺梦凡
-	  or studentid=="2017010641" //马钺洋
-    or studentid=="2017210353" //胡发德
-    or studentid=="2017011674" //宋九如
-    or studentid=="2018010611" //王泽宪
-    or studentid=="2018010579" //周卓润
-    or studentid=="2018010693" //谢荣博
+    or studentid=="2018010634" //姜凯元
     or studentid=="2018010653" //涂汉璋
-    or studentid=="2018010593" //陈龙
-    or studentid=="2017010686" //刘宇航
-    or studentid=="2017010680" //李宇航
-    or studentid=="2016010484" //古鹏飞
-    //九字班
-    or studentid=="2019010614" //李冰白
-    or studentid=="2019010573" //苑蒙
-    or studentid=="2019010604" //郝海清
-    or studentid=="2019010562" //潘修睿
-    or studentid=="2019010609" //赵琦佳
-    or studentid=="2019010596" //王琛
-    or studentid=="2019010566" //张玥
-    or studentid=="2019010550" //苍岳洋
-    or studentid=="2019010556" //袁泳
-    or studentid=="2019010575" //潘首安
-    or studentid=="2019010565" //穆琳聪
-    or studentid=="2019010557" //时其然
-    or studentid=="2019010607" //王略  
-    or studentid=="2019010560" //廖子健  
-    or studentid=="2019010561" //刘庚 
-    or studentid=="2019010572" //杨瑞 
-    or studentid=="2019010586" //邓璟瑗  
-    or studentid=="2019010589" //何雨萌  
-    or studentid=="2019010582" //石和凌  
-    or studentid=="2019010597" //王艺霏  
-    or studentid=="2019010583" //马旭君  
-    or studentid=="2019010606" //张博涵  
-    or studentid=="2019010569" //何奕彬  
-    or studentid=="2019010587" //欧子洋  
-    or studentid=="2019010605" //邓超
-    or studentid=="2019010128" //贾润喆
-    or studentid=="2019010551" //樊齐航
-    or studentid=="2019010585" //张晟源
-    or studentid=="2019010603" //蔡鲲鹏
-    or studentid=="2019010953" //李琦
-    or studentid=="2019011029" //杜首良
-    or studentid=="2019010612" //刘润心
-    or studentid=="2019010581" //卢祎迪
-    or studentid=="2019010875" //多江山
-    or studentid=="2019011354" //王文新
+    or studentid=="2018010579" //周卓润
+    or studentid=="2017010820" //滕峻池
+    or studentid=="2017010644" //阎华毅
+    or studentid=="2017010687" //刘悦阳
+    //其他用户
+    or studentid=="2020310415" //陈胜杰
+    or studentid=="2020012940" //陈伟亮
+    or studentid=="2019010586" //邓璟瑗
     or studentid=="2019010600" //丁思宇
-    or studentid=="2019011570" //郭立本
+    or studentid=="2019010579" //杜子煜
+    or studentid=="2018010652" //段宇光
+    or studentid=="2020010475" //谷绍伟
+    or studentid=="2019010604" //郝海清
+    or studentid=="2017010643" //贺梦凡
+    or studentid=="2020310428" //胡发德
+    or studentid=="2016010658" //胡克勤
+    or studentid=="2017010678" //黄骏
+    or studentid=="2020010384" //解维嘉
+    or studentid=="2019010614" //李冰白
+    or studentid=="2018310434" //李福祥
+    or studentid=="2018010623" //李金峰
+    or studentid=="2019010588" //李子康
+    or studentid=="2020012947" //练邱爽
+    or studentid=="2020012960" //梁与同
+    or studentid=="2019010560" //廖子健
+    or studentid=="2019010567" //林巧妹
+    or studentid=="2019010561" //刘庚
+    or studentid=="2020012950" //刘柠赫
+    or studentid=="2017010686" //刘宇航
+    or studentid=="2019010581" //卢祎迪
+    or studentid=="2017010641" //马钺洋
+    or studentid=="2019010565" //梅子麒
+    or studentid=="2019010560" //穆琳聪
+    or studentid=="2019010575" //潘首安
+    or studentid=="2017010519" //蒲子航
+    or studentid=="2019010766" //钱彦
+    or studentid=="2019010764" //邱士乘
+    or studentid=="2020012958" //沈珂宇
+    or studentid=="2019010557" //时其然
+    or studentid=="2020012949" //宋东芪
+    or studentid=="2017011674" //宋九如
+    or studentid=="2018010648" //陶海旭
+    or studentid=="2019010607" //王略
+    or studentid=="2020010387" //王晓霆
+    or studentid=="2020310418" //王雪霖
+    or studentid=="2017310402" //王宇晨
+    or studentid=="2018010693" //谢荣博
+    or studentid=="2020012955" //辛约
     or studentid=="2019010552" //邢海潼
-    or studentid=="2019011482" //郝瀚
+    or studentid=="2017010679" //闫佳文
+    or studentid=="2020012941" //颜丙禄
+    or studentid=="2019010572" //杨瑞
+    or studentid=="2019011520" //杨学舸
+    or studentid=="2019010556" //袁泳
+    or studentid=="2019010573" //苑蒙
+    or studentid=="2020010379" //翟光弘
+    or studentid=="2019010606" //张博涵
+    or studentid=="2018010646" //张浩哲
+    or studentid=="2020012952" //张茗堃
+    or studentid=="2019010566" //张玥
+    or studentid=="2019010578" //张越
+    or studentid=="2017010675" //赵天罡
+    or studentid=="2019010559" //郑雨珂
+    or studentid=="2019010574" //周恩泽
+    or studentid=="2019010576" //周鹏宇
     )
     {
       Serial.print("door open successful");
