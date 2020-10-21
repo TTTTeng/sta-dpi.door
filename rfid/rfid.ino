@@ -226,16 +226,17 @@ void loop()
     //诸位大哥和元老们
     studentid=="2016010564"    //王广晗
     or studentid=="2020210998" //王广晗
-	  or studentid=="2018011562" //范雨晗
+    or studentid=="2018011562" //范雨晗
     or studentid=="2019310437" //刘心志
     or studentid=="2019310438" //丁荣
     or studentid=="2017310381" //欧阳晨光
     or studentid=="2016010766" //林逸晗
     or studentid=="2020310429" //林逸晗
     or studentid=="2016010819" //王逸群
-    
+ 
 	  //老师
 	  or studentid=="1988990346" //李老师
+    or studentid=="1988990346" //李老师
     or studentid=="2017640415" //胡老师
     or studentid=="2013990111" //张浩老师
     or studentid=="2014990017" //罗川老师
@@ -243,7 +244,7 @@ void loop()
     or studentid=="2020620975" //徐东老师
     or studentid=="2006980114" //王芃老师
     or studentid=="1980990115" //侯汝舜老师
-    
+  
 	  //主席团
     or studentid=="2018010635" //李豪汉
 	  or studentid=="2018010625" //张翀
@@ -320,7 +321,6 @@ void loop()
     or studentid=="2019010559" //郑雨珂
     or studentid=="2019010574" //周恩泽
     or studentid=="2019010576" //周鹏宇
-    
     )
     {
       Serial.print("door open successful");
