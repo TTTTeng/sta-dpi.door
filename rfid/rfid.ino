@@ -35,6 +35,15 @@ void special()
   tone(sound,1250,600);
   digitalWrite(sound,LOW);
 }
+void special2()
+{
+  tone(sound,1250);
+  delay(400);
+  tone(sound,1000);
+  delay(400);
+  tone(sound,750,600);
+  digitalWrite(sound,LOW);
+}
 void wrong()
 {
   tone(sound,700,300);
@@ -317,7 +326,8 @@ void loop()
       Serial.print("door open successful");
       Serial2.print("1 ");
       Serial2.println(studentid);
-      if (studentid=="2018011562") special(); //女朋友
+      if (studentid=="2018011562") special(); //wgh的女朋友
+      else if (studentid=="2018011622") special2(); //tjc的女朋友
       else right();
       digitalWrite(door,LOW);
       delay(3000);
