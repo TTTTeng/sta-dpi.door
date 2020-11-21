@@ -257,6 +257,8 @@ void loop()
 
     //其他用户
     or studentid=="2018011622" //肖铂
+    or studentid=="2020310435" //郭云鹏
+    or studentid=="2017010629" //毛骞
     or studentid=="2017010484" //王陈梓
     or studentid=="2017010661" //王绍航
     or studentid=="2017010875" //孔瑞楷
