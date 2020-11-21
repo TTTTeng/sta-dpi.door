@@ -259,6 +259,9 @@ void loop()
     or studentid=="2018011622" //肖铂
     or studentid=="2020310435" //郭云鹏
     or studentid=="2017010629" //毛骞
+    or studentid=="2020010405" //郭天骏
+    or studentid=="2020010367" //曹凡博
+    or studentid=="2020010410" //马伊斯
     or studentid=="2017010484" //王陈梓
     or studentid=="2017010661" //王绍航
     or studentid=="2017010875" //孔瑞楷
