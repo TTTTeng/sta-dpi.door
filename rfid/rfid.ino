@@ -329,6 +329,10 @@ void loop()
     or studentid=="2019010574" //周恩泽
     or studentid=="2019010576" //周鹏宇
     or studentid=="2019310431" //周冰倩-精博19
+    or studentid=="2020310406" //许佳妮-精博20
+    or studentid=="2018310405" //施汝恒-精博18
+    or studentid=="2018310440" //王琨锋-精博18
+    or studentid=="2015310284" //王诗文-精博15
     )
     {
       Serial.print("door open successful");
